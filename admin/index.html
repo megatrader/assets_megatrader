@@ -1,0 +1,1263 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>template_yupi</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/linea-io/linea.css" />
+    <link rel="stylesheet" href="bower_components/simple-line-icons/css/simple-line-icons.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/animate.css/animate.css" />
+    <link rel="stylesheet" href="bower_components/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/material.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/ripples.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-material-datepicker/css/bootstrap-material-datepicker.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-touchspin/src/jquery.bootstrap-touchspin.css" />
+    <link rel="stylesheet" href="bower_components/c3/c3.css" />
+    <link rel="stylesheet" href="bower_components/chartist/dist/chartist.min.css" />
+    <link rel="stylesheet" href="bower_components/clockpicker/dist/jquery-clockpicker.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables-autofill-bs/css/autoFill.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-buttons-bs/css/buttons.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-colreorder-bs/css/colReorder.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-fixedcolumns-bs/css/fixedColumns.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-keytable-bs/css/keyTable.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-responsive-bs/css/responsive.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-rowgroup-bs/css/rowGroup.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-rowreorder-bs/css/rowReorder.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-scroller-bs/css/scroller.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/datatables.net-select-bs/css/select.bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/dropify/dist/css/dropify.css" />
+    <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.css" />
+    <link rel="stylesheet" href="bower_components/typicons.font/src/font/typicons.css" />
+    <link rel="stylesheet" href="bower_components/typicons.font/src/font/typicons.min.css" />
+    <link rel="stylesheet" href="bower_components/weather-icons/css/weather-icons.css" />
+    <link rel="stylesheet" href="bower_components/weather-icons/css/weather-icons.min.css" />
+    <link rel="stylesheet" href="bower_components/weather-icons/css/weather-icons-wind.css" />
+    <link rel="stylesheet" href="bower_components/weather-icons/css/weather-icons-wind.min.css" />
+    <link rel="stylesheet" href="bower_components/dropzone/dist/min/dropzone.min.css" />
+    <link rel="stylesheet" href="bower_components/fullcalendar/dist/fullcalendar.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="bower_components/metisMenu/dist/metisMenu.min.css" />
+    <link rel="stylesheet" href="bower_components/mocha/mocha.css" />
+    <link rel="stylesheet" href="bower_components/morris.js/morris.css" />
+    <link rel="stylesheet" href="bower_components/rickshaw/rickshaw.css" />
+    <link rel="stylesheet" href="bower_components/switchery/dist/switchery.css" />
+    <link rel="stylesheet" href="bower_components/jt.timepicker/jquery.timepicker.css" />
+    <link rel="stylesheet" href="bower_components/toastr/toastr.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css" />
+    <link rel="stylesheet" href="bower_components/material-design-icons/iconfont/material-icons.css" />
+    <link rel="stylesheet" href="bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" />
+    <link rel="stylesheet" href="bower_components/flag-icon-css/css/flag-icon.min.css" />
+    <link rel="stylesheet" href="bower_components/themify-icons/css/themify-icons.css" />
+    <link rel="stylesheet" href="bower_components/themify-icons/ie7/ie7.css" />
+    <link rel="stylesheet" href="bower_components/ammap3/ammap/ammap.css" />
+    <link rel="stylesheet" href="bower_components/amstock3/amcharts/style.css" />
+    <link rel="stylesheet" href="bower_components/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="libs/cryptocoins/webfont/cryptocoins.css"/>
+    <link rel="stylesheet" href="libs/cryptocoins/webfont/cryptocoins-colors.css"/>
+    <link rel="stylesheet" href="scripts/lib/shortcode/shortcode.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+	<div id="preloader">
+		<div class="loader">
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__ball"></div>
+		</div>
+	</div>
+
+
+      <div id="main-wrapper"><!-- header -->
+        <div class="header">
+            <div class="nav-header">
+                <div class="brand-logo">
+                    <a href="index.html">
+                        <i class="cc BTC"></i>
+                        <span class="brand-title">
+                            <img src="images/logo-text.png" alt="">
+                        </span>
+                    </a>
+                </div>
+
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-content">
+                <div class="header-left">
+                    <ul>
+                        <li class="icons position-relative">
+                            <a href="javascript:void(0)">
+                                <i class="icon-magnifier f-s-16"></i>
+                            </a>
+                            <div class="drop-down animated bounceInDown">
+                                <div class="dropdown-content-body">
+                                    <div class="header-search" id="header-search">
+                                        <form action="#">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Search">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">
+                                                        <i class="icon-magnifier"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="header-right">
+                    <ul>
+                        <li class="icons">
+                            <a href="javascript:void(0)">
+                                <i class="icon-bell f-s-18" aria-hidden="true"></i>
+                                <div class="pulse-css"></div>
+                            </a>
+                            <div class="drop-down animated bounceInDown">
+                                <div class="dropdown-content-heading">
+                                    <span class="text-left">Recent Notifications</span>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/1.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Mr. Saifun</div>
+                                                    <div class="notification-text">5 members joined today </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/2.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Mariam</div>
+                                                    <div class="notification-text">likes a photo of you</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Tasnim</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/4.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Ishrat Jahan</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="text-center">
+                                            <a href="#" class="more-link">See All</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons">
+                            <a href="javascript:void(0)">
+                                <i class="icon-envelope f-s-18" aria-hidden="true"></i>
+                                <div class="pulse-css"></div>
+                            </a>
+                            <div class="drop-down animated bounceInDown">
+                                <div class="dropdown-content-heading">
+                                    <span class="text-left">2 New Messages</span>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li class="notification-unread">
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/1.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Saiul Islam</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="notification-unread">
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/2.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Ishrat Jahan</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/3.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Saiul Islam</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="pull-left m-r-10 avatar-img" src="images/avatar/4.jpg" alt="" />
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                    <div class="notification-heading">Ishrat Jahan</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="text-center">
+                                            <a href="#" class="more-link">See All</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons">
+                            <a href="javascript:void(0)">
+                                <i class="icon-note f-s-18" aria-hidden="true"></i>
+                                <div class="pulse-css"></div>
+                            </a>
+                            <div class="drop-down dropdown-task animated bounceInDown">
+                                <div class="dropdown-content-heading">
+                                    <span class="text-left">Task Update</span>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">85% Complete</small>
+                                                    <div class="notification-heading">Task One</div>
+                                                    <div class="progress">
+                                                        <div style="width: 85%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar progress-bar-success"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">60% Complete</small>
+                                                    <div class="notification-heading">Task Two</div>
+                                                    <div class="progress">
+                                                        <div style="width: 60%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar progress-bar-primary"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">25% Complete</small>
+                                                    <div class="notification-heading">Task Three</div>
+                                                    <div class="progress">
+                                                        <div style="width: 25%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar progress-bar-warning"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="notification-content">
+                                                    <small class="notification-timestamp pull-right">75% Complete</small>
+                                                    <div class="notification-heading">Task Four</div>
+                                                    <div class="progress">
+                                                        <div style="width: 75%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" role="progressbar" class="progress-bar progress-bar-danger"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="text-center">
+                                            <a href="#" class="more-link">See All</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons">
+                            <a href="javascript:void(0)">
+                                <i class="icon-user f-s-18" aria-hidden="true"></i>
+                            </a>
+                            <div class="drop-down dropdown-profile animated bounceInDown">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-envelope"></i>
+                                                <span>Inbox</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-settings"></i>
+                                                <span>Setting</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-lock"></i>
+                                                <span>Lock Screen</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-power"></i>
+                                                <span>Logout</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- #/ header -->
+
+
+        <!-- sidebar -->
+        <div class="nk-sidebar">
+            <div class="nk-nav-scroll">
+
+                <div class="nav-user">
+                    <img src="images/users/1.jpg" alt="" class="rounded-circle">
+                    <h5>
+                        Yupi Data
+                    </h5>
+
+                    <div class="nav-user-option">
+                        <div class="setting-option">
+                            <div data-toggle="dropdown">
+                                <i class="icon-settings"></i>
+                            </div>
+                            <div class="dropdown-menu animated flipInX">
+                                <a class="dropdown-item" href="#">Account</a>
+                                <a class="dropdown-item" href="#">Lock</a>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </div>
+                        <div class="notification-option">
+                            <div data-toggle="dropdown">
+                                <i class="icon-bell"></i>
+                            </div>
+                            <div class="dropdown-menu animated flipInX">
+                                <a class="dropdown-item" href="#">Email
+                                    <span class="badge badge-primary pull-right m-t-3">05</span>
+                                </a>
+                                <a class="dropdown-item" href="#">Feed back
+                                    <span class="badge badge-danger pull-right m-t-3">02</span>
+                                </a>
+                                <a class="dropdown-item" href="#">Report
+                                    <span class="badge badge-warning pull-right m-t-3">02</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="metismenu" id="menu">
+
+                    <li class="nav-label">
+                        <a href="index.html">
+                            Sector 1
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="#" aria-expanded="false">
+                            <i class="icon-speedometer"></i>
+                            <span class="nav-text">
+                                Sub sectores
+                            </span>                            
+                        </a>
+                        <ul aria-expanded="false">
+                            <li>
+                                <a href="subsector-month-year.html">
+                                    Subsector 1
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- #/ nk nav scroll -->
+        </div>
+        <!-- #/ sidebar -->
+
+        <!-- content body -->
+        <div class="content-body">
+            <div class="container-fluid">
+                <div class="row page-titles">
+                    <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 p-r-0 align-self-center">
+                        <h3 class="text-primary">
+                            Sector
+                        </h3>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="javascript:void(0)">Sector 1</a>
+                            </li>
+                            
+                        </ol>
+                    </div>
+
+                </div>
+                <!-- row -->
+
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Estadisticas de los ultimos Años
+                                </h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                      <div class="col-lg-3">
+                          <div class="card">
+                              <div class="card-body">
+                                  <div class="stat-widget-two">
+                                      <h4 class="text-primary m-b-15">
+                                          Empresas
+                                      </h4>
+                                      <div class="row justify-content-between">
+                                          <div class="col border-right-1">
+                                              <p class="m-b-10 f-s-13">
+                                                2016
+                                              </p>
+                                              <h5 class="f-w-600">
+                                                1,235
+                                              </h5>
+                                          </div>
+                                          <div class="col border-right-1">
+                                              <p class="m-b-10 f-s-13">
+                                                2017
+                                              </p>
+                                              <h5 class="f-w-600">
+                                                12,535
+                                              </h5>
+                                          </div>
+                                      </div>
+                                      <div class="progress m-t-15 h-10px">
+                                          <div role="progressbar" class="progress-bar bg-primary wow animated progress-animated w-50pc h-10px">
+                                          </div>
+                                      </div>
+                                      <h6 class="m-t-10">
+                                          Crecimiento
+                                          <span class="pull-right">
+                                            50%
+                                          </span>
+                                      </h6>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3">
+                          <div class="card">
+                              <div class="card-body">
+                                  <div class="stat-widget-two">
+                                      <h4 class="text-success m-b-15">Valor Años</h4>
+                                      <div class="row justify-content-between">
+                                          <div class="col border-right-1">
+                                              <p class="m-b-10 f-s-13">2016</p>
+                                              <h5 class="f-w-600">1,235</h5>
+                                          </div>
+                                          <div class="col border-right-1">
+                                              <p class="m-b-10 f-s-13">2017</p>
+                                              <h5 class="f-w-600">12,535</h5>
+                                          </div>
+                                      </div>
+                                      <div class="progress m-t-15 h-10px">
+                                          <div role="progressbar" class="progress-bar bg-success wow animated progress-animated w-50pc h-10px">
+                                          </div>
+                                      </div>
+                                      <h6 class="m-t-10">Crecimiento
+                                          <span class="pull-right">50%</span>
+                                      </h6>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3">
+                          <div class="card">
+                              <div class="card-body">
+                                  <div class="stat-widget-two">
+                                      <h4 class="text-warning m-b-15">
+                                        Productos
+                                      </h4>
+                                      <div class="row justify-content-between">
+                                          <div class="col border-right-1">
+                                              <p class="m-b-10 f-s-13">
+                                                2016
+                                              </p>
+                                              <h5 class="f-w-600">
+                                                1,235
+                                              </h5>
+                                          </div>
+                                          <div class="col border-right-1">
+                                              <p class="m-b-10 f-s-13">
+                                                2017
+                                              </p>
+                                              <h5 class="f-w-600">
+                                                12,535
+                                              </h5>
+                                          </div>
+                                      </div>
+                                      <div class="progress m-t-15 h-10px">
+                                          <div role="progressbar" class="progress-bar bg-warning wow animated progress-animated w-50pc h-10px">
+                                          </div>
+                                      </div>
+                                      <h6 class="m-t-10">
+                                          Crecimiento
+                                          <span class="pull-right">
+                                            50%
+                                          </span>
+                                      </h6>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3">
+                          <div class="card">
+                              <div class="card-body">
+                                  <div class="stat-widget-two">
+                                      <h4 class="text-danger m-b-15">
+                                        Paises Proveedores
+                                      </h4>
+                                      <div class="row justify-content-between">
+                                          <div class="col border-right-1">
+                                              <p class="m-b-10 f-s-13">
+                                                2016
+                                              </p>
+                                              <h5 class="f-w-600">
+                                                1,235
+                                              </h5>
+                                          </div>
+                                          <div class="col border-right-1">
+                                              <p class="m-b-10 f-s-13">
+                                                2017
+                                              </p>
+                                              <h5 class="f-w-600">
+                                                12,535
+                                              </h5>
+                                          </div>
+                                      </div>
+                                      <div class="progress m-t-15 h-10px">
+                                          <div role="progressbar" class="progress-bar bg-danger wow animated progress-animated w-50pc h-10px">
+                                          </div>
+                                      </div>
+                                      <h6 class="m-t-10">
+                                          Crecimiento
+                                          <span class="pull-right">
+                                            50%
+                                          </span>
+                                      </h6>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                        Ranking de Empresas 2016 y 2017
+                                </h4>
+                                <div id="grafico_ranking" class="ct-chart ct-golden-section" ></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Participacion de los ultimos años
+                                </h4>
+                                <div id="grafico_participacion" style="height: 290px"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Estadisticas de este año 2018
+                                </h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="stat-widget-two">
+                                        <h4 class="text-primary m-b-15">
+                                            Empresas 2018
+                                        </h4>
+                                        <div class="row justify-content-between">
+                                            <div class="col border-right-1">                                                
+                                                <h5 class="f-w-600 text-center">
+                                                8500
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="progress m-t-15 h-10px">
+                                            <div role="progressbar" class="progress-bar bg-primary wow animated progress-animated w-50pc h-10px">
+                                            </div>
+                                        </div>
+                                        <h6 class="m-t-10 text-center">                                            
+                                            <span class="f-w-600 ">
+                                                6 meses
+                                            </span>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="stat-widget-two">
+                                            <h4 class="text-success m-b-15">
+                                                Productos 2018
+                                            </h4>
+                                            <div class="row justify-content-between">
+                                                <div class="col border-right-1">                                                
+                                                    <h5 class="f-w-600 text-center">
+                                                    $ 2800
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="progress m-t-15 h-10px">
+                                                <div role="progressbar" class="progress-bar bg-success wow animated progress-animated w-50pc h-10px">
+                                                </div>
+                                            </div>
+                                            <h6 class="m-t-10 text-center">                                            
+                                                <span class="f-w-600 ">
+                                                    6 meses
+                                                </span>
+                                            </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="stat-widget-two">
+                                            <h4 class="text-warning m-b-15">
+                                                Valor 2018
+                                            </h4>
+                                            <div class="row justify-content-between">
+                                                <div class="col border-right-1">                                                
+                                                    <h5 class="f-w-600 text-center">
+                                                    500
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="progress m-t-15 h-10px">
+                                                <div role="progressbar" class="progress-bar bg-warning wow animated progress-animated w-50pc h-10px">
+                                                </div>
+                                            </div>
+                                            <h6 class="m-t-10 text-center">                                            
+                                                <span class="f-w-600 ">
+                                                    6 meses
+                                                </span>
+                                            </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="stat-widget-two">
+                                            <h4 class="text-danger m-b-15">
+                                                Cantidad 2018
+                                            </h4>
+                                            <div class="row justify-content-between">
+                                                <div class="col border-right-1">                                                
+                                                    <h5 class="f-w-600 text-center">
+                                                    650
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="progress m-t-15 h-10px">
+                                                <div role="progressbar" class="progress-bar bg-danger wow animated progress-animated w-50pc h-10px">
+                                                </div>
+                                            </div>
+                                            <h6 class="m-t-10 text-center">                                            
+                                                <span class="f-w-600 ">
+                                                    6 meses
+                                                </span>
+                                            </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
+
+                <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Ranking Productos del Subsector</h4>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered verticle-middle" id="table_ranking">
+                                            <thead>
+                                                <tr><!-- CABECERA DE TABLA -->
+                                                    <th scope="col">id</th>
+                                                    <th scope="col">Productos</th>
+                                                    <th scope="col">Cantidad</th>
+                                                    <th scope="col">Valor</th>
+                                                    <th scope="col">Participación</th>                 
+                                                    <th scope="col"> % </th>                                
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            <!-- PRIMERA LINEA -->
+                                                <tr>
+                                                    <td>
+                                                        <a class="text-muted" href="#">1</a>
+                                                    </td>
+                                                    <td>Air Conditioner</td>
+                                                    <td>4.23265785    
+                                                    </td>
+                                                    <td>4.23265785        
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar bg-primary w-95pc"></div>
+                                                        </div>
+                                                    </td>                                            
+                                                    <td>
+                                                        <span class="label label-primary">70%</span>
+                                                    </td>                                            
+                                                </tr>
+                                                <!-- SEGUNDA LINEA -->
+                                                <tr>
+                                                    <td>
+                                                        <a class="text-muted" href="#">2</a>
+                                                    </td>
+                                                    <td>Air Conditioner</td>
+                                                    <td>4.23265785    
+                                                    </td>
+                                                    <td>4.23265785        
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar bg-success w-90pc"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="label label-success">70%</span>
+                                                    </td>                                            
+                                                </tr>
+                                                <tr>
+                                                <!-- TERCERA LINEA -->
+                                                    <td>
+                                                        <a class="text-muted" href="#">3</a>
+                                                    </td>
+                                                    <td>Air Conditioner</td>
+                                                    <td>4.23265785    
+                                                    </td>
+                                                    <td>4.23265785        
+                                                    </td>                                            
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar bg-dark w-95pc"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="label label-dark">70%</span>
+                                                    </td>
+                                                </tr>
+                                                <!-- CUARTA LINEA -->
+        
+                                                <tr>
+                                                    <td>
+                                                        <a class="text-muted" href="#">4</a>
+                                                    </td>
+                                                    <td>Vehicles</td>
+                                                    <td>4.23265785    
+                                                    </td>
+                                                    <td>4.23265785        
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar bg-danger w-85pc"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="label label-danger">70%</span>
+                                                    </td>
+                                                </tr>
+        
+                                                <tr>
+                                                <!-- QUINTA LINEA -->
+                                                    <td>
+                                                        <a class="text-muted" href="#">5</a>
+                                                    </td>
+                                                    <td>Boats</td>
+                                                    <td>4.23265785    
+                                                    </td>
+                                                    <td>4.23265785        
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar bg-warning w-75pc"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="label label-warning">70%</span>
+                                                    </td>
+                                                </tr>
+        
+                                                <!-- SEXTA LINEA -->
+                                                <tr>
+                                                    <td>
+                                                        <a class="text-muted" href="#">6</a>
+                                                    </td>
+                                                    <td>Air Conditioner</td>
+                                                    <td>4.23265785    
+                                                    </td>
+                                                    <td>4.23265785        
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar bg-primary w-95pc"></div>
+                                                        </div>
+                                                    </td>                                            
+                                                    <td>
+                                                        <span class="label label-primary">70%</span>
+                                                    </td>                                            
+                                                </tr>
+                                                <!-- SEPTIMA LINEA -->
+                                                <tr>
+                                                    <td>
+                                                        <a class="text-muted" href="#">7</a>
+                                                    </td>
+                                                    <td>Air Conditioner</td>
+                                                    <td>4.23265785    
+                                                    </td>
+                                                    <td>4.23265785        
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar bg-success w-90pc"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="label label-success">70%</span>
+                                                    </td>                                            
+                                                </tr>
+                                                <tr>
+                                                <!-- OCTABA LINEA -->
+                                                    <td>
+                                                        <a class="text-muted" href="#">8</a>
+                                                    </td>
+                                                    <td>Air Conditioner</td>
+                                                    <td>4.23265785    
+                                                    </td>
+                                                    <td>4.23265785        
+                                                    </td>                                            
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar bg-dark w-95pc"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="label label-dark">70%</span>
+                                                    </td>
+                                                </tr>
+                                                <!-- NOVENA LINEA -->
+        
+                                                <tr>
+                                                    <td>
+                                                        <a class="text-muted" href="#">9</a>
+                                                    </td>
+                                                    <td>Vehicles</td>
+                                                    <td>4.23265785    
+                                                    </td>
+                                                    <td>4.23265785        
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar bg-danger w-85pc"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="label label-danger">70%</span>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <!-- DECIMA LINEA -->
+                                                    <td>
+                                                        <a class="text-muted" href="#">10</a>
+                                                    </td>
+                                                    <td>Boats</td>
+                                                    <td>4.23265785    
+                                                    </td>
+                                                    <td>4.23265785        
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress progress-xs">
+                                                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class="progress-bar bg-warning w-75pc"></div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="label label-warning">70%</span>
+                                                    </td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                        Mapa
+                                </h4>
+                                <div id="grafico_mapa" style="height: 400px;"  ></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Informacion
+                                </h4>
+                                <table class="table header-border">
+                                    <tbody>
+                                        <tr>
+                                            <th>
+                                                <div class="dot bg-danger"></div>
+                                            </th>
+                                            <td>
+                                                China
+                                            </td>
+                                            <td class="text-muted">
+                                                16,648
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>
+                                                <div class="dot bg-warning"></div>
+                                            </th>
+                                            <td>
+                                                Corea
+                                            </td>
+                                            <td class="text-muted">
+                                                16,648
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>
+                                                <div class="dot bg-success"></div>
+                                            </th>
+                                            <td>
+                                                Alemania
+                                            </td>
+                                            <td class="text-muted">
+                                                16,648
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>
+                                                <div class="dot bg-primary"></div>
+                                            </th>
+                                            <td>
+                                                Brasil
+                                            </td>
+                                            <td class="text-muted">
+                                                16,648
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>
+                                                <div class="dot bg-info"></div>
+                                            </th>
+                                            <td>
+                                                Tailandia
+                                            </td>
+                                            <td class="text-muted">
+                                                16,648
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+    
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- #/ container -->
+        </div>
+        <!-- #/ content body -->
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy;
+                    <a href="#">
+                        Yupi Data
+
+                    </a> 2018</p>
+            </div>
+        </div>
+        <!-- #/ footer --> </div>
+
+
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/zrender/dist/zrender.min.js"></script>
+    <script src="bower_components/echarts/dist/echarts.min.js"></script>
+    <script src="bower_components/echarts/dist/echarts.common.min.js"></script>
+    <script src="bower_components/echarts/dist/echarts.simple.min.js"></script>
+    <script src="bower_components/amcharts3/amcharts/amcharts.js"></script>
+    <script src="bower_components/amcharts3/amcharts/serial.js"></script>
+    <script src="bower_components/amcharts3/amcharts/pie.js"></script>
+    <script src="bower_components/amcharts3/amcharts/funnel.js"></script>
+    <script src="bower_components/amcharts3/amcharts/xy.js"></script>
+    <script src="bower_components/amcharts3/amcharts/plugins/dataloader/dataloader.min.js"></script>
+    <script src="bower_components/amcharts3/amcharts/plugins/export/export.min.js"></script>
+    <script src="bower_components/amcharts3/amcharts/themes/black.js"></script>
+    <script src="bower_components/amcharts3/amcharts/lang/es.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/momentjs/moment.js"></script>
+    <script src="bower_components/daterangepicker/daterangepicker.js"></script>
+    <script src="bower_components/bootstrap-material-design/dist/js/material.js"></script>
+    <script src="bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+    <script src="bower_components/bootstrap-material-datepicker/js/bootstrap-material-datepicker.js"></script>
+    <script src="bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.js"></script>
+    <script src="bower_components/bootstrap-touchspin/src/jquery.bootstrap-touchspin.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/c3/c3.js"></script>
+    <script src="bower_components/pg-calendar/dist/js/pignose.calendar.js"></script>
+    <script src="bower_components/chartist/dist/chartist.min.js"></script>
+    <script src="bower_components/chart.js/dist/Chart.js"></script>
+    <script src="bower_components/clockpicker/dist/jquery-clockpicker.js"></script>
+    <script src="bower_components/jquery-countTo/jquery.countTo.js"></script>
+    <script src="bower_components/topojson/topojson.js"></script>
+    <script src="bower_components/datamaps/dist/datamaps.all.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <script src="bower_components/respond/dest/respond.src.js"></script>
+    <script src="bower_components/bootbox.js/bootbox.js"></script>
+    <script src="bower_components/jszip/dist/jszip.js"></script>
+    <script src="bower_components/pdfmake/build/pdfmake.js"></script>
+    <script src="bower_components/pdfmake/build/vfs_fonts.js"></script>
+    <script src="bower_components/datatables.net/js/jquery.dataTables.js"></script>
+    <script src="bower_components/datatables.net-buttons/js/dataTables.buttons.js"></script>
+    <script src="bower_components/datatables.net-buttons/js/buttons.colVis.js"></script>
+    <script src="bower_components/datatables.net-buttons/js/buttons.flash.js"></script>
+    <script src="bower_components/datatables.net-buttons/js/buttons.html5.js"></script>
+    <script src="bower_components/datatables.net-buttons/js/buttons.print.js"></script>
+    <script src="bower_components/datatables.net-colreorder/js/dataTables.colReorder.js"></script>
+    <script src="bower_components/datatables.net-fixedcolumns/js/dataTables.fixedColumns.js"></script>
+    <script src="bower_components/datatables.net-fixedheader/js/dataTables.fixedHeader.js"></script>
+    <script src="bower_components/datatables.net-keytable/js/dataTables.keyTable.js"></script>
+    <script src="bower_components/datatables.net-responsive/js/dataTables.responsive.js"></script>
+    <script src="bower_components/datatables.net-rowgroup/js/dataTables.rowGroup.js"></script>
+    <script src="bower_components/datatables.net-rowreorder/js/dataTables.rowReorder.js"></script>
+    <script src="bower_components/datatables.net-scroller/js/dataTables.scroller.js"></script>
+    <script src="bower_components/datatables.net-select/js/dataTables.select.js"></script>
+    <script src="bower_components/dropify/dist/js/dropify.js"></script>
+    <script src="bower_components/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="bower_components/Flot/excanvas.min.js"></script>
+    <script src="bower_components/Flot/jquery.flot.js"></script>
+    <script src="bower_components/Flot/jquery.flot.pie.js"></script>
+    <script src="bower_components/Flot/jquery.flot.resize.js"></script>
+    <script src="bower_components/Flot/jquery.flot.time.js"></script>
+    <script src="bower_components/fullcalendar/dist/fullcalendar.js"></script>
+    <script src="bower_components/highcharts/highcharts.js"></script>
+    <script src="bower_components/iCheck/icheck.min.js"></script>
+    <script src="bower_components/justgage/justgage.js"></script>
+    <script src="bower_components/gnob/gnob.js"></script>
+    <script src="bower_components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="bower_components/eve-raphael/eve.js"></script>
+    <script src="bower_components/raphael/raphael.min.js"></script>
+    <script src="bower_components/morris.js/morris.min.js"></script>
+    <script src="bower_components/peity/jquery.peity.js"></script>
+    <script src="bower_components/rickshaw/rickshaw.js"></script>
+    <script src="bower_components/select2/dist/js/select2.js"></script>
+    <script src="bower_components/transitionize/dist/transitionize.js"></script>
+    <script src="bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="bower_components/switchery/dist/switchery.js"></script>
+    <script src="bower_components/jt.timepicker/jquery.timepicker.js"></script>
+    <script src="bower_components/toastr/toastr.js"></script>
+    <script src="bower_components/typeahead.js/dist/typeahead.bundle.js"></script>
+    <script src="bower_components/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="bower_components/jqvmap/dist/jquery.vmap.min.js"></script>
+    <script src="bower_components/waypoints/lib/noframework.waypoints.js"></script>
+    <script src="bower_components/weather/weather.js"></script>
+    <script src="bower_components/simpleWeather/jquery.simpleWeather.js"></script>
+    <script src="bower_components/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js"></script>
+    <script src="bower_components/popper.js/dist/umd/popper.js"></script>
+    <script src="bower_components/themify-icons/ie7/ie7.js"></script>
+    <script src="bower_components/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="bower_components/ammap3/ammap/ammap.js"></script>
+    <script src="bower_components/ammap3/ammap/plugins/export/export.min.js"></script>
+    <script src="bower_components/ammap3/ammap/plugins/responsive/responsive.min.js"></script>
+    <script src="bower_components/ammap3/ammap/themes/black.js"></script>
+    <script src="bower_components/ammap3/ammap/lang/es.js"></script>
+    <script src="bower_components/ammap3/ammap/maps/js/worldLow.js"></script>
+    <script src="bower_components/amstock3/amcharts/amcharts.js"></script>
+    <script src="bower_components/amstock3/amcharts/amstock.js"></script>
+    <script src="bower_components/amstock3/amcharts/serial.js"></script>
+    <script src="bower_components/amstock3/amcharts/plugins/dataloader/dataloader.min.js"></script>
+    <script src="bower_components/amstock3/amcharts/plugins/export/export.min.js"></script>
+    <script src="bower_components/amstock3/amcharts/plugins/responsive/responsive.min.js"></script>
+    <script src="bower_components/amstock3/amcharts/themes/black.js"></script>
+    <script src="bower_components/amstock3/amcharts/lang/es.js"></script>
+    <script src="bower_components/chartist-plugin-accessibility/dist/chartist-plugin-accessibility.min.js"></script>
+    <script src="bower_components/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="bower_components/chartist-plugin-pointlabels/dist/chartist-plugin-pointlabels.min.js"></script>
+    <script src="bower_components/chartist-plugin-axistitle/dist/chartist-plugin-axistitle.min.js"></script>
+    <script src="bower_components/chartist-plugin-threshold/dist/chartist-plugin-threshold.min.js"></script>
+    <script src="bower_components/chartist-plugin-fill-donut/dist/chartist-plugin-fill-donut.min.js"></script>
+    <script src="bower_components/chartist-plugin-zoom/dist/chartist-plugin-zoom.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap/js/dist/util.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/button.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/index.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

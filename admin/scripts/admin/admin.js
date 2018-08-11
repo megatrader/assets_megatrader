@@ -1,0 +1,6 @@
+$(
+    function(){
+        // admin script 
+        
+    }
+);
